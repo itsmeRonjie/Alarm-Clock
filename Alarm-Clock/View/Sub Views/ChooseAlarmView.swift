@@ -8,11 +8,42 @@
 import SwiftUI
 
 struct ChooseAlarmView: View {
+    @Binding var currentAlarmIndex: Int?
+    @EnvironmentObject var lnManager: LocalNotificationManager
+    let addEditViewType: AddEditViewType
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if let currentAlarmIndex = currentAlarmIndex {
+            if addEditViewType == .standard {
+                AddEditAlarmView(
+                    currentAlarmIndex: currentAlarmIndex,
+                    alarmModel: lnManager.alarmViewModels[currentAlarmIndex]
+                )
+            } else {
+                AddEditCircularAlarmView(
+                    currentAlarmIndex: currentAlarmIndex,
+                    alarmModel: lnManager.alarmViewModels[currentAlarmIndex]
+                )
+            }
+        } else {
+            if addEditViewType == .standard {
+                AddEditAlarmView(
+                    currentAlarmIndex: currentAlarmIndex,
+                    alarmModel: .DefaultAlarm()
+                )
+            } else {
+                AddEditCircularAlarmView(
+                    currentAlarmIndex: currentAlarmIndex,
+                    alarmModel: .DefaultAlarm()
+                )
+            }
+        }
     }
 }
 
 #Preview {
-    ChooseAlarmView()
+    ChooseAlarmView(
+        currentAlarmIndex: .constant(nil),
+        addEditViewType: .standard
+    )
 }

@@ -15,7 +15,14 @@
       }
     },
     "+" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+"
+          }
+        }
+      }
     },
     "About" : {
       "extractionState" : "manual",
@@ -62,10 +69,24 @@
       }
     },
     "Alarms" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alarmas"
+          }
+        }
+      }
     },
     "Cancel" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kansela"
+          }
+        }
+      }
     },
     "create" : {
       "extractionState" : "manual",
@@ -79,13 +100,34 @@
       }
     },
     "enable" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "makahimo"
+          }
+        }
+      }
     },
     "Enable notifications, please" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I-enable ang mga pahibalo, palihog"
+          }
+        }
+      }
     },
     "end" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "katapusan"
+          }
+        }
+      }
     },
     "hello there!" : {
       "extractionState" : "manual",
@@ -142,19 +184,54 @@
       }
     },
     "Ringtone Sounds" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mga Tingog sa Ringtone"
+          }
+        }
+      }
     },
     "Save" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipigi"
+          }
+        }
+      }
     },
     "Set the alarm" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ibutang ang alarma"
+          }
+        }
+      }
     },
     "Sound" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tingog"
+          }
+        }
+      }
     },
     "Sounds of Nature" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mga Tingog sa Kinaiyahan"
+          }
+        }
+      }
     },
     "start" : {
       "extractionState" : "manual",
@@ -168,13 +245,34 @@
       }
     },
     "The UI for this nice Alarm app was largely inspired by the amazing work of Anton Leogky." : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ang UI alang niining nindot nga Alarm app kay nadasig sa talagsaong buhat ni Anton Leogky."
+          }
+        }
+      }
     },
     "to Anton's page" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sa page ni Anton"
+          }
+        }
+      }
     },
     "you did it! here you can manage your alarm, change time and other things" : {
-
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "imong gibuhat! dinhi mahimo nimong madumala ang imong alarma, pagbag-o sa oras ug uban pang mga butang"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

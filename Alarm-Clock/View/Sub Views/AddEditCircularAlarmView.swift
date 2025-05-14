@@ -8,11 +8,43 @@
 import SwiftUI
 
 struct AddEditCircularAlarmView: View {
+    let currentAlarmIndex: Int?
+    @State var alarmModel: AlarmModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            CancelSaveAlarm(
+                currentAlarmIndex: currentAlarmIndex,
+                alarmModel: $alarmModel
+            )
+            
+            AlarmToggleView(alarmEnabled: $alarmModel.alarmEnabled)
+            
+            Divider()
+            
+            Spacer()
+            
+            CircularTimeView(
+                currentAlarmIndex: currentAlarmIndex,
+                size: screenWidth / 2,
+                alarmModel: $alarmModel
+            )
+            
+            Spacer()
+            
+            SelectActivityViewExpanded(
+                currentColorIndex: $alarmModel.colorIndex,
+                currentActivity: $alarmModel.activity
+            )
+            
+        }
+        .padding()
     }
 }
 
 #Preview {
-    AddEditCircularAlarmView()
+    AddEditCircularAlarmView(
+        currentAlarmIndex: nil,
+        alarmModel: .DefaultAlarm()
+    )
 }

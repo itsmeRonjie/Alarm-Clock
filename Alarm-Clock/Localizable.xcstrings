@@ -1,12 +1,12 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "%@- %@" : {
+    "%@ — %@" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "%1$@- %2$@"
+            "value" : "%1$@ — %2$@"
           }
         }
       }
@@ -74,6 +74,12 @@
           }
         }
       }
+    },
+    "enable" : {
+
+    },
+    "Enable notifications, please" : {
+
     },
     "hello there!" : {
       "extractionState" : "manual",

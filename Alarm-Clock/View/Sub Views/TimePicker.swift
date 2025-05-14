@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct TimePicker: View {
+    @Binding var time: Date
+    let scale: CGFloat
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        DatePicker(
+            "",
+            selection: $time,
+            displayedComponents: .hourAndMinute
+        )
+        .scaleEffect(scale)
+        .labelsHidden()
     }
 }
 
 #Preview {
-    TimePicker()
+    TimePicker(
+        time: .constant(Date()),
+        scale: 1.3
+    )
 }

@@ -1,6 +1,19 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%@- %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@- %2$@"
+          }
+        }
+      }
+    },
+    "+" : {
+
+    },
     "About" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -11,6 +24,9 @@
           }
         }
       }
+    },
+    "AboutView" : {
+
     },
     "Add Alarm" : {
       "extractionState" : "manual",
@@ -45,6 +61,9 @@
         }
       }
     },
+    "Alarms" : {
+
+    },
     "create" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -67,14 +86,7 @@
         }
       }
     },
-    "Hello, world!" : {
-
-    },
     "let's add an alarm" : {
-
-    },
-    "Let’s add an alarm" : {
-      "extractionState" : "manual",
       "localizations" : {
         "ceb-PH" : {
           "stringUnit" : {
@@ -83,6 +95,9 @@
           }
         }
       }
+    },
+    "ListOfTheAlarmsView" : {
+
     },
     "No Alarms" : {
       "extractionState" : "manual",

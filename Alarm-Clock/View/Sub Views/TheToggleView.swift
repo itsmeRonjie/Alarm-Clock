@@ -11,13 +11,14 @@ struct TheToggleView: View {
     var width = 35.0
     let factor = 59.0 / 35.0
     let innerCircleFactor = 59.0 / 25.0
-    
+    let offsetDelta = 12.0
+
     @Binding var isOn: Bool
     
-    let offsetDelta = 12.0
     var sign: Double {
         isOn ? 1.0 : -1.0
     }
+    
     var xShift: Double {
         sign * offsetDelta
     }
@@ -67,7 +68,6 @@ struct TheToggleView: View {
             )
             
             ShiftedCircle(xShift: xShift)
-            
         }
         .frame(width: width*factor, height: width, alignment: .leading)
         .gesture(combinedGesture)
@@ -87,7 +87,6 @@ struct ShiftedCircle: View {
     }
 }
 
-
 struct ShiftedText: View {
     let text: LocalizedStringKey
     let color: Color
@@ -99,7 +98,6 @@ struct ShiftedText: View {
             .offset(x: xShift)
     }
 }
-
 
 #Preview {
     VStack {

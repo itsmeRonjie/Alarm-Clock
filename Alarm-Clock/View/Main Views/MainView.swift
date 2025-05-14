@@ -14,15 +14,15 @@ struct MainView: View {
     var body: some View {
         TabView {
             if lnManager.isAuthorized {
-                Text("ListOfTheAlarmsView")
-                    .tabItem({
+                ListOfTheAlarmsView()
+                    .tabItem {
                         Label("Alarms", systemImage: "alarm.fill")
-                    })
+                    }
                 
-                Text("AboutView")
-                    .tabItem({
+                AboutView()
+                    .tabItem {
                         Label("About", systemImage: "info.circle.fill")
-                    })
+                    }
             } else {
                 EnableNotifications()
             }

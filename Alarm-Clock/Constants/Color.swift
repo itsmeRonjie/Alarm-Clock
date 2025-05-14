@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-let blue = Color("blue")
-let pink = Color("pink")
-let purple = Color("purple")
-let yellow = Color("yellow")
-let darkYellow = Color("darkYellow")
-let lightYellow = Color("lightYellow")
-let backgroundColor = Color("backgroundColor")
-let cardBackgroundColor = Color("cardBackgroundColor")
-let lightGray = Color("lightGray")
-let black = Color("black")
-let nickel = Color("nickel")
+let alarmBlue = Color("a_blue")
+let alarmPink = Color("a_pink")
+let alarmPurple = Color("a_purple")
+let alarmYellow = Color("a_yellow")
+let alarmDarkYellow = Color("a_darkYellow")
+let alarmLightYellow = Color("a_lightYellow")
+let alarmBackgroundColor = Color("a_backgroundColor")
+let alarmCardBackgroundColor = Color("a_cardBackgroundColor")
+let alarmLightGray = Color("a_lightGray")
+let alarmBlack = Color("a_black")
+let alarmNickel = Color("a_nickel")
 
-let gradColorList = [yellow, pink, purple, blue]
+let gradColorList = [alarmYellow, alarmPink, alarmPurple, alarmBlue]
 
-let mainColors = [pink, purple, blue, yellow, lightGray, black]
+let mainColors = [alarmPink, alarmPurple, alarmBlue, alarmYellow, alarmLightGray, alarmBlack]

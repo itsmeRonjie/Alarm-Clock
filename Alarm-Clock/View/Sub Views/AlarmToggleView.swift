@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct AlarmToggleView: View {
+    @Binding var alarmEnabled: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            GrayedTextView(text: "alarm")
+            Spacer()
+            TheToggleView(isOn: $alarmEnabled)
+        }
+        .padding()
     }
 }
 
 #Preview {
-    AlarmToggleView()
+    VStack {
+        AlarmToggleView(alarmEnabled: .constant(true))
+        AlarmToggleView(alarmEnabled: .constant(false))
+    }
 }

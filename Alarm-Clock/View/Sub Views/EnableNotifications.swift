@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct EnableNotifications: View {
+    @EnvironmentObject var lnManager: LocalNotificationManager
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            FourCoolCircles()
+            VStack {
+                Spacer()
+                CoolTextView(
+                    text: LocalizedStringKey("Enable notifications, please"),
+                    size: 48)
+                .multilineTextAlignment(.center)
+                Spacer()
+                Button(action: {
+                    lnManager.openSettings()
+                }, label: {
+                    ButtonView(text: "enable")
+                        .padding()
+                })
+            }
+        }
     }
 }
 
 #Preview {
     EnableNotifications()
+        .environmentObject(LocalNotificationManager())
 }

@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ImageDisplayView: View {
+    let name: String
+    let width: CGFloat
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(name)
+            .resizable()
+            .scaledToFit()
+            .frame(width: width)
     }
 }
 
 #Preview {
-    ImageDisplayView()
+    HStack {
+        ImageDisplayView(name: standardViewImage, width: 50)
+        Spacer()
+        ImageDisplayView(name: circularViewImage, width: 50)
+    }.padding()
 }

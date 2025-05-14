@@ -16,15 +16,18 @@ struct EnableNotifications: View {
                 Spacer()
                 CoolTextView(
                     text: LocalizedStringKey("Enable notifications, please"),
-                    size: 48)
+                    size: 48
+                )
                 .multilineTextAlignment(.center)
+                
                 Spacer()
-                Button(action: {
+                
+                Button {
                     lnManager.openSettings()
-                }, label: {
+                } label: {
                     ButtonView(text: "enable")
                         .padding()
-                })
+                }
             }
         }
     }

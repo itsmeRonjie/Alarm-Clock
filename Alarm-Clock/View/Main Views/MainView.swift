@@ -24,30 +24,25 @@ struct MainView: View {
                         Label("About", systemImage: "info.circle.fill")
                     })
             } else {
-//                EnableNotifications()
+                EnableNotifications()
             }
-            
         }
         .ignoresSafeArea()
         .task {
-            try? await lnManager
-                .requestAuthorization()
+            try? await lnManager.requestAuthorization()
         }
         .onChange(of: scenePhase) { _, newValue in
             if newValue == .active {
                 Task {
-                    await lnManager
-                        .getCurrentSettings()
-                    
-                    await lnManager
-                        .getPendingAlarms()
+                    await lnManager.getCurrentSettings()
+                    await lnManager.getPendingAlarms()
                 }
             }
         }
     }
 }
 
-
 #Preview {
     MainView()
+        .environmentObject(LocalNotificationManager())
 }

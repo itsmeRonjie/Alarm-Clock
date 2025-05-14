@@ -67,6 +67,12 @@
         }
       }
     },
+    "Hello, world!" : {
+
+    },
+    "Hello, World!" : {
+
+    },
     "Let’s add an alarm" : {
       "extractionState" : "manual",
       "localizations" : {

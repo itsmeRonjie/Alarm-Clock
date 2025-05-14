@@ -25,3 +25,7 @@ let activities = [
     "sailboat",
     "scooter"
 ]
+
+enum AddEditViewType {
+    case standard, circular
+}

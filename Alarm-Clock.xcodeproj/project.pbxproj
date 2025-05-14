@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE91F1FE2DD42E3B00EE6884 /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91F1FD2DD42E3B00EE6884 /* GrayedTextView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CE91F1912DD3356E00EE6884 /* Alarm-Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm-Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE91F1FD2DD42E3B00EE6884 /* GrayedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayedTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		CE91F1882DD3356E00EE6884 = {
 			isa = PBXGroup;
 			children = (
+				CE91F1FD2DD42E3B00EE6884 /* GrayedTextView.swift */,
 				CE91F1932DD3356E00EE6884 /* Alarm-Clock */,
 				CE91F1922DD3356E00EE6884 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE91F1FE2DD42E3B00EE6884 /* GrayedTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -51,7 +51,6 @@ struct SplashScreenView: View {
                         .opacity(0.7)
                     
                     Spacer()
-                    
                 }
             }
             .opacity(opacity)
@@ -70,7 +69,6 @@ struct SplashScreenView: View {
         }
     }
 }
-
 
 #Preview {
     SplashScreenView()

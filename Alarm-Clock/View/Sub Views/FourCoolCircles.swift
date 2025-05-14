@@ -15,6 +15,7 @@ struct FourCoolCircles: View {
     @State private var timer = Timer
         .publish(every: 1, on: .main, in: .common)
         .autoconnect()
+    
     var body: some View {
         ZStack {
             CoolCircleView(
@@ -58,10 +59,8 @@ struct FourCoolCircles: View {
                 for i in 0..<offsetY.count {
                     offsetY[i] = Double.random(in: -300...300)
                 }
-                
             }
         }
-        
     }
 }
 
@@ -73,7 +72,11 @@ struct CoolCircleView: View {
     var body: some View {
         Circle()
             .fill(
-                LinearGradient(colors: [color1,color2], startPoint: .top, endPoint: .bottom)
+                LinearGradient(
+                    colors: [color1,color2],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
             )
             .frame(width: radius, height: radius)
     }

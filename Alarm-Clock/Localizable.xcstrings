@@ -1,0 +1,127 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mahitungod sa"
+          }
+        }
+      }
+    },
+    "Add Alarm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idugang ang Alarma"
+          }
+        }
+      }
+    },
+    "alarm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "alarma"
+          }
+        }
+      }
+    },
+    "Alarm List" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listahan sa Alarm"
+          }
+        }
+      }
+    },
+    "create" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "paghimo"
+          }
+        }
+      }
+    },
+    "hello there!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kumusta diha!"
+          }
+        }
+      }
+    },
+    "Let’s add an alarm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "butangan ta ug alarm"
+          }
+        }
+      }
+    },
+    "No Alarms" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Walay Alarm"
+          }
+        }
+      }
+    },
+    "off" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔕"
+          }
+        }
+      }
+    },
+    "on" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔔"
+          }
+        }
+      }
+    },
+    "start" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ceb-PH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pagsugod"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

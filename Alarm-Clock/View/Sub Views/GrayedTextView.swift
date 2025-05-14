@@ -18,5 +18,5 @@ struct GrayedTextView: View {
 }
 
 #Preview {
-    GrayedTextView(text: "Alarm")
+    GrayedTextView(text: "alarm")
 }

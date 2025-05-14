@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "%@ — %@" : {
       "localizations" : {
         "en" : {
@@ -24,9 +27,6 @@
           }
         }
       }
-    },
-    "AboutView" : {
-
     },
     "Add Alarm" : {
       "extractionState" : "manual",
@@ -64,6 +64,9 @@
     "Alarms" : {
 
     },
+    "Cancel" : {
+
+    },
     "create" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -79,6 +82,9 @@
 
     },
     "Enable notifications, please" : {
+
+    },
+    "end" : {
 
     },
     "hello there!" : {
@@ -101,9 +107,6 @@
           }
         }
       }
-    },
-    "ListOfTheAlarmsView" : {
-
     },
     "No Alarms" : {
       "extractionState" : "manual",
@@ -138,6 +141,21 @@
         }
       }
     },
+    "Ringtone Sounds" : {
+
+    },
+    "Save" : {
+
+    },
+    "Set the alarm" : {
+
+    },
+    "Sound" : {
+
+    },
+    "Sounds of Nature" : {
+
+    },
     "start" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -148,6 +166,15 @@
           }
         }
       }
+    },
+    "The UI for this nice Alarm app was largely inspired by the amazing work of Anton Leogky." : {
+
+    },
+    "to Anton's page" : {
+
+    },
+    "you did it! here you can manage your alarm, change time and other things" : {
+
     }
   },
   "version" : "1.0"
